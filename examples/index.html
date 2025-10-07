@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean World</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            overflow: hidden;
+            height: 100%;
+        }
+
+        canvas {
+            display: block;
+            margin: 0 auto;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            /* Ocean blue background */
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="oceanCanvas"></canvas>
+</body>
+<script type="module">
+    import { OceanWorld } from '../dist/index.js';
+    const oceanWorld = new OceanWorld('oceanCanvas', {
+        enableMouseFollow: false,
+        sharkCount: 5,
+        waveHeight: 20,
+        bubbleCount: 30
+    });
+
+
+</script>
+
+</html>
