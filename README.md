@@ -1,4 +1,5 @@
 # Ocean World - 动态海洋世界动画库
+![alt text](image.png)
 
 Ocean World 是一个基于 TypeScript 和 HTML5 Canvas 开发的动态海洋世界动画库。它能够创建逼真的海洋场景，包含游动的鲨鱼、动态海浪、上升气泡等效果，为用户提供沉浸式的海洋视觉体验。
 
